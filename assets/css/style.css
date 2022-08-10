@@ -7,5 +7,12 @@ header{
 }
 
 .navigation-bar{
-    
+    text-align: right;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-link{
+    display: inline;
+    font-size: 20px;
 }
