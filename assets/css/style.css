@@ -7,7 +7,8 @@
 
 /* Element Selectors */
 header{
-    background-color: darkblue;
+    background-color: rgb(88, 213, 220);
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
@@ -27,9 +28,8 @@ h1{
 }
 
 footer{
-    background-color: darkblue;
+    background-color: rgb(88, 213, 220);
     width: 100%;
-    position: absolute;
     bottom: 0;
     left: 0;
     padding: 10px 0;
@@ -37,7 +37,7 @@ footer{
 }
 
 form{
-    border: 3px solid darkblue;
+    border: 3px solid rgb(88, 213, 220);
     border-radius: 10px;
     position: relative;
     margin: 0 auto;
@@ -53,10 +53,12 @@ input{
 
 label{
     font-weight: bold;
-    color: darkblue;
+    color: rgb(88, 213, 220);
 }
 
-
+img{
+    border-radius: 10px;
+}
 
 
 /* Class Selectors */
@@ -68,7 +70,7 @@ label{
     text-align: right;
 }
 
-
+/* Navigation Bar */
 .navigation-bar{
     text-align: right;
 
@@ -77,34 +79,62 @@ label{
 .nav-link{
     display: inline;
     font-size: 20px;
-    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .nav-link a{
-    padding: 20px;
+    padding: 16px;
     color: white;
 }
 
 .nav-link a:hover{
     background-color: white;
-    color: darkblue;
+    color: rgb(88, 213, 220);
 }
 
+
+/* Section 1: Welcome Section */
 .first-section{
     padding: 20px;
-    background-color: aliceblue;
-    top: 53.2px;
+    background-color: rgb(187, 245, 233);
+    margin-top: 53.2px;
 }
 
+.first-section h1{
+    margin-bottom: 20px;
+}
+
+.carbuncle-welcome{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+
+
+/* Section 2: About Section */
 .about-section{
     background-color: mintcream;
     padding: 20px;
     line-height: 30px;
 }
 
+.carbuncle-about{
+    
+    margin: 10px;
+    height: 300px;
+    border: 10px solid rgb(88, 213, 220);
+}
 
+.carbie-photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* Section 3: Contact Section */
 .contact-section{
-    background-color: aliceblue;
+    background-color: rgb(187, 245, 233);
     padding: 20px;
 }
 
@@ -112,6 +142,13 @@ label{
     margin-bottom: 5px;
 }
 
+.contact-button{
+    background-color:rgb(88, 213, 220);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 0 0;
+}
 
 
 
