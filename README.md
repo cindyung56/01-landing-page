@@ -1,2 +1,3 @@
 # 01-landing-page
-Module 01 Mini Project - Landing Page
+
+## Module 01 Mini Project - Landing Page

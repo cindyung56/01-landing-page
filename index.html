@@ -9,7 +9,7 @@
 
     <body>
 
-        <header id="welcome">
+        <header>
             <ul class="navigation-bar">
                 <li class="nav-link"><a href="#welcome">Home</a></li>
                 <li class="nav-link"><a href="#about">About</a></li>
@@ -18,18 +18,24 @@
         </header>
 
         <main>
-            <section class="first-section">
+            <section class="first-section"  id="welcome">
                 <h1 class="align-center">Carbuncle</h1>
+                <img class="carbuncle-welcome" src="./assets/images/carbuncle-03.jpg" alt="carbuncle mount">
             </section>
             
-            <section class="about-section">
+            <section class="about-section" id="about">
                 <h2 class="align-center">About Us</h2>
-
-                <p class="align-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
                 <p class="align-center">This is a carbuncle appreciation page.</p>
+                <div class="carbie-photos">
+                    <img class="carbuncle-about" src="./assets/images/carbuncle-01.jpg" alt="sitting carbuncle">
+                    <img class="carbuncle-about" src="./assets/images/carbuncle-02.jpg" alt="carbuncle in action">
+                    <img class="carbuncle-about" src="./assets/images/carbuncle-04.jpg" alt="flying carbuncles">
+                </div>
+                <p class="align-center">Carbuncles are the loyal companions of the knowledgeable arcanists of the Arcanists' Guild. Smart and obedient, carbuncles are made of pure aether energy.</p>
+                <p class="align-center"> Carbuncle is love. Carbuncle is life. Join the Arcanists' Guild in Limsa Lominsa today!</p>
             </section>
             
-            <section class="contact-section">
+            <section class="contact-section" id="contact">
                 <h2 class="align-center">Share The Carbuncle Love</h2>
                 <form>
                     <ul class="align-center">
@@ -46,24 +52,17 @@
                             <input type="text" id="contact-phone" name="phone">
                         </li>
                     </ul>
+                    <div class="align-center">
+                        <button class="contact-button">Send</button>
+                    </div>
+                    
                 </form>
             </section>
 
-
-
-
-
-
-
-
-
-
-
-
         </main>
 
-        <footer>
-            <h6>Created by Cindy Ung</h6>
+        <footer class="align-center">
+            <h6>(c) Stella Mistiline, Local Carbuncle Appreciator<sup>TM</sup></h6>
         </footer>
 
     </body>
