@@ -1,0 +1,18 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: lightblue;
+}
+
+.navigation-bar{
+    text-align: right;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-link{
+    display: inline;
+    font-size: 20px;
+}
